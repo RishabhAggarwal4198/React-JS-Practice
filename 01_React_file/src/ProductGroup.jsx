@@ -13,4 +13,4 @@ function ProductGroup (){
 	)
 }
 
-export default ProductGroup
+export default ProductGroup 
