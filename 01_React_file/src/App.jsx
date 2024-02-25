@@ -1,8 +1,14 @@
 import "./App.css"
 
+import ProductGroup from "./ProductGroup.jsx"
+
 
 function App() {
-  return <button>Hello World</button>
+  return (
+    <div>
+      <ProductGroup />
+    </div>
+  )
 
 }
 
