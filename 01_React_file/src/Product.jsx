@@ -10,7 +10,7 @@ function Product ({name, age, state, year = `"Not mentioned"` , sequence}) {
 		<h2> My Age is : {age} </h2>
 		<h3> I belongs to the Indian state of  "{state}"</h3>
 		<h4> I did my graduation in : {year} </h4>
-		{/* <p> Tag : {numCount}</p> */}
+		<p> Tag : {numCount}</p>
 		</div>
 	);
 }
