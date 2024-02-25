@@ -8,7 +8,7 @@ function App() {
   return (
     <div>
       <ProductGroup />
-      <Product name="Ganesh" age ="44"  state="Assam" />
+      <Product name="Ganesh" age ={`'44'`}  state="Assam" />
     </div>
   )
 
