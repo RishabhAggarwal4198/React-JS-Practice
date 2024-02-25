@@ -3,10 +3,10 @@ import "./ProductGroup.css"
 import { Product } from "./Product.jsx";
 
 function ProductGroup (){
-	// const num = ['Pratham', 'Dwitya', 'Tritya', 'Chaturth']
+	const num = ['Pratham', 'Dwitya', 'Tritya', 'Chaturth']
 	return (
 		<div className="div2">
-		<Product name="Ramesh" age= {22}   state="Rajasthan" />
+		<Product name="Ramesh" age= {22}   state="Rajasthan"  sequence = {num} />
 		<Product name="Vimal" age= {44}    state="Haryana" />
 		<Product name="Suresh" age = {55/2}  state="Tamil Nadu"/>
 		</div>
