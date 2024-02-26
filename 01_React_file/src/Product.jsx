@@ -12,7 +12,7 @@ function Product ({name, age, state, year = `"Not mentioned"` , sequence , objTw
 		<h4> I did my graduation in : {year} </h4>
 		<p> My Sequence is : {sequence}</p>
 		<p> My Object is : {objTwo}</p> 
-		<p> My Object is : {objTwo.a}</p> 
+		{/* <p> My Object is : {objTwo.a}</p>  */}
 		</div>
 	);
 }
