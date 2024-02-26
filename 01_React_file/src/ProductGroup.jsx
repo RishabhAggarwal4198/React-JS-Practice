@@ -4,6 +4,7 @@ import { Product } from "./Product.jsx";
 
 function ProductGroup (){
 	const num = ['Pratham', 'Dwitya', 'Tritya', 'Chaturth']
+	let num2 =  {A : 'Pratham', B : 'Dwitya', C : 'Tritya', D: 'Chaturtha' }
 	return (
 		<div className="div2">
 		<Product name="Ramesh" age= {22}   state="Rajasthan"  sequence = {num} />
