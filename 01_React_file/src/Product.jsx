@@ -3,7 +3,7 @@ import "./Product.css"
 
 
 function Product ({name, age, state, year = `"Not mentioned"` , sequence , objTwo }) {
-	const numCount = sequence.map( (ni) => <li>{ni}</li> )
+	// const numCount = sequence.map( (seq) => <li>{seq}</li> )
 	return (
 		<div className="div1">
 		<h1> Hello My Name is {name} </h1>
