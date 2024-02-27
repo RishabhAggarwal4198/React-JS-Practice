@@ -5,7 +5,6 @@ import "./Product.css"
 function Product ({name, age, state, year = `"Not mentioned"`}) {
 
 	let gradYear = year > 2005 ? "❌You exceed the GRADUATION-YEAR limit❌" : " ✅Your GRADUATION-YEAR is fine✅"
-	let ageCriteria = age > 30 ? "You are ELIGIBLE " : "You are NOT-ELIGIBLE "
 
 	return (
 		<div className="div1">
@@ -16,7 +15,8 @@ function Product ({name, age, state, year = `"Not mentioned"`}) {
 
 					{/* OR 🔽🔽 */}
 					
-		{/* <h4> Eligibility : {filter} </h4> */}
+		<h4> Eligibility : {gradYear  === '✅Your GRADUATION-YEAR is fine✅' ? "You are ELIGIBLE " : "You are NOT-ELIGIBLE "} </h4>
+		{/* <h4> Eligibility : {age > 30 ? "You are ELIGIBLE " : "You are NOT-ELIGIBLE "} </h4> */}
 
 
 		</div>
