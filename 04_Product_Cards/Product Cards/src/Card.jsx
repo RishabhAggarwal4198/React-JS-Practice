@@ -1,16 +1,16 @@
 
 
- export default  function Card ({heading, image, dualDescrptn , price}) {
+ export default  function Card ({heading, image, descrption , price}) {
 	
 	
 
 	return (
 		<div>
-		<h1>{head[index]}</h1>
+		<h1>{heading}</h1>
 		<img src= {image} alt="" />
 		<ul>
-			<li> </li>
-			<li> </li>
+			<li> {descrption} </li>
+			<li> {descrption} </li>
 		</ul>
 		
 		<h2>{price}</h2>
