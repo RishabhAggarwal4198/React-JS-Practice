@@ -4,7 +4,7 @@ import "./Product.css"
 
 function Product ({name, age, state, year = `"Not mentioned"` , sequence , objTwo , features }) {
 	const numCount = sequence.map( (seq) => <li>{seq}</li> )
-	const list = features.map((feat) => <li>{feat}</li>)
+	const list = features.map((feat) => <li><b>{feat}</b></li>)
 
 	return (
 		<div className="div1">
@@ -13,12 +13,14 @@ function Product ({name, age, state, year = `"Not mentioned"` , sequence , objTw
 		<h3> I belongs to the Indian state of  "{state}"</h3>
 		<h4> I did my graduation in : {year} </h4>
 		<p> My Sequence is : {numCount}</p>
+		{/* <p> My Object is : {objTwo.a}</p>   */}
 		<p> My Object is : {objTwo}</p> 
-		<p> My Object is : {objTwo.a}</p>  
 		<p>{list}</p>
 		</div>
 	);
 }
+
+
 
 
 
