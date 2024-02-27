@@ -1,6 +1,6 @@
 
 
- export default  function Card ({heading, image, descrption , price}) {
+function Card ({heading, image, descrption , price}) {
 	
 	
 
@@ -18,3 +18,5 @@
 	)
 	
 }
+
+export default  Card
