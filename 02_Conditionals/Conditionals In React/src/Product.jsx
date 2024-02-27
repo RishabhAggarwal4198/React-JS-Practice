@@ -4,6 +4,8 @@ import "./Product.css"
 
 function Product ({name, age, state, year = `"Not mentioned"`}) {
 
+	let filter = age > 30 ? "You are ELIGIBLE for this post" : "You are NOT-ELIGIBLE for this post"
+
 	return (
 		<div className="div1">
 		<h1> Hello My Name is {name} </h1>
