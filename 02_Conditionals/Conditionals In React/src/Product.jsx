@@ -4,8 +4,6 @@ import "./Product.css"
 
 function Product ({name, age, state, year = `"Not mentioned"`}) {
 
-
-
 	return (
 		<div className="div1">
 		<h1> Hello My Name is {name} </h1>
