@@ -5,7 +5,7 @@ import "./Product.css"
 function Product ({name, age, state, year = `"Not mentioned"`}) {
 
 	let gradYear = year > 2005 ? "❌You exceed the GRADUATION-YEAR limit❌" : " ✅Your GRADUATION-YEAR is fine✅"
-	let styles = {background : year < 2005 ? "background: linear-gradient (to top right , pink, green;" : ""} 
+	let styles = {linearGradient : year < 2005 ? "pink, green" : ""} 
 
 	return (
 		<div className="div1">
