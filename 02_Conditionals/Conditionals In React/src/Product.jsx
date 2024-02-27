@@ -5,7 +5,7 @@ import "./Product.css"
 function Product ({name, age, state, year = `"Not mentioned"`}) {
 
 	let gradYear = year > 2005 ? "❌You exceed the GRADUATION-YEAR limit❌" : " ✅Your GRADUATION-YEAR is fine✅"
-	let styles = {backgroundColor : year < 2005 ? "yellow" : ""} 
+	let styles = {background : year < 2005 ? "background: linear-gradient (to top right , pink, green;" : ""} 
 
 	return (
 		<div className="div1">
@@ -22,6 +22,7 @@ function Product ({name, age, state, year = `"Not mentioned"`}) {
 	 {age <= 30 &&   <b> Age Factor : <h4>You are UNDER-AGE for this post</h4></b> }
 
 		</div>
+		
 	);
 }
 
