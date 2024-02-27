@@ -10,9 +10,9 @@ function ProductGroup (){
 	return (
 		<div className="div2">
 		<Product name="Ramesh" age= {22}   state="Rajasthan" sequence = {nums}  objTwo = {['Hello', 'World']}  features ={options} />
-		{/* <Product name="Ramesh" age= {22}   state="Rajasthan"  sequence = {num}  objTwo = { {'a': 'Hello', 'b': 'World'}} /> */}
-		{/* <Product name="Vimal" age= {44}    state="Haryana"  sequence = {nums}   features ={options}  /> */}
-		{/* <Product name="Suresh" age = {55/2}  state="Tamil Nadu"  sequence = {nums}   features ={options}  /> */}
+		{/* <Product name="Ramesh" age= {22}   state="Rajasthan"  sequence = {num}  objTwo = { {'a': 'Hello', 'b': 'World'}}  features ={options} /> */}
+		<Product name="Vimal" age= {44}    state="Haryana"  sequence = {nums}   objTwo = {['Hello', 'World']}   features ={options}  />
+		<Product name="Suresh" age = {55/2}  state="Tamil Nadu"  sequence = {nums}   objTwo = {['Hello', 'World']}    features ={options}  />
 		</div>
 	)
 }
