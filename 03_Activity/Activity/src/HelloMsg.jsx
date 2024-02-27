@@ -1,10 +1,11 @@
 
 
 
-function HelloMsg (userName , textColor) {
+export default function HelloMsg (userName , rangg ) {
 
-	<h2  style='color : ${te}' >{userName}</h2>
+	return (
+		<h2  style= {{color: rangg}} > Hello ,  {userName}</h2>
+	)
 	
 }
 
-export default HelloMsg
