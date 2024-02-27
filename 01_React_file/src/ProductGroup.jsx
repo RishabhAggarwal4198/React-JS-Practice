@@ -5,6 +5,8 @@ import { Product } from "./Product.jsx";
 function ProductGroup (){
 	const num = ['Pratham', 'Dwitya', 'Tritya', 'Chaturth']
 	let num2 =  { pehla : 'Pratham', dudra : 'Dwitya', teesra : 'Tritya', chautha: 'Chaturtha' }
+	// const numCount = num.map( (n) => <li>{n}</li>)
+
 	return (
 		<div className="div2">
 		<Product name="Ramesh" age= {22}   state="Rajasthan"  sequence = {num}  objTwo = {['Hello', 'World']} />
