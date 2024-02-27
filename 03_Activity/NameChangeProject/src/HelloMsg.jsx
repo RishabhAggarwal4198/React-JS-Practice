@@ -1,9 +1,9 @@
 
 
-function HelloMsg (userName , rangg ) {
-	let coloRR = {color: rangg}
+function HelloMsg (userName , textColor  ) {
+	let coloRR = {color: textColor };
 	return (
-		<h1  style= {coloRR} > Hello ,  {userName} </h1>
+		<h1  style = {coloRR} > Hello ,  {userName} </h1>
 	)
 	
 }
