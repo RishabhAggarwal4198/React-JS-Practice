@@ -5,6 +5,7 @@ import "./Product.css"
 function Product ({name, age, state, year = `"Not mentioned"`}) {
 
 	let gradYear = year > 2005 ? "❌You exceed the GRADUATION-YEAR limit❌" : " ✅Your GRADUATION-YEAR is fine✅"
+	let styles = {backgroundColor : year < 2005 ? "yellow" : ""} 
 
 	return (
 		<div className="div1">
