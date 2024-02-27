@@ -15,9 +15,8 @@ function Product ({name, age, state, year = `"Not mentioned"`}) {
 
 					{/* OR 🔽🔽 */}
 					
-		<h4> Eligibility : {gradYear  === '✅Your GRADUATION-YEAR is fine✅' ? "You are ELIGIBLE " : "You are NOT-ELIGIBLE "} </h4>
-		{/* <h4> Eligibility : {age > 30 ? "You are ELIGIBLE " : "You are NOT-ELIGIBLE "} </h4> */}
-
+		<h4> Eligibility : {year < 2005 ? "You are ELIGIBLE " : "You are NOT-ELIGIBLE "} </h4>
+		<b> Age Factor :</b>  {age <= 30 ? <h4>You are UNDER-AGE for this post</h4> :  <h4> Your AGE is fine</h4>  }
 
 		</div>
 	);
