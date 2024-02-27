@@ -11,6 +11,7 @@ function App() {
   return (
     <>
       <HelloMsg userName="Keshav"   textColor = "red" />
+      <HelloMsg userName="Sachin"   textColor = "blue" />
     </>
   )
 }
