@@ -1,0 +1,14 @@
+*{
+	box-sizing: border-box;
+}
+
+
+.div1 {
+	
+	border: 10px solid rgb(191, 23, 237);
+	background: linear-gradient(to top right , rgb(234, 83, 83) 1% , rgb(96, 96, 232) 90% );
+	border-radius: 22px;
+	margin: 14px;
+	padding: 14px;
+	color: rgb(223, 221, 221);
+}
