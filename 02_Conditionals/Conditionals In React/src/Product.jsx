@@ -13,6 +13,11 @@ function Product ({name, age, state, year = `"Not mentioned"`}) {
 		<h3> I belongs to the Indian state of  "{state}"</h3>
 		<h4> I did my graduation in year : {year} </h4>
 		<h4> Eligibility : {filter} </h4>
+
+					{/* OR 🔽🔽 */}
+
+		
+
 		</div>
 	);
 }
