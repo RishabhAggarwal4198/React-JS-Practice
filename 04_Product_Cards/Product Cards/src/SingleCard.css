@@ -11,6 +11,12 @@
 	overflow: hidden;
 }
 
+ul{
+	margin-bottom: 19px;
+	text-align: left;
+}
+
+
 li{
-	margin: 0;
+	margin-bottom: 0;
 }

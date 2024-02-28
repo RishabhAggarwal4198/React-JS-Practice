@@ -11,13 +11,15 @@ function Card ({ idx}) {
 					['Intutive touch surface', 'Designed for iPad Pro'], 
 					 ['Wireless Mouse 2.4GHz' , 'Optical Orientation']]
 	
+	let picture = ["/React/Images/png_computer_mouse_71912.png"]
+
 	let oldPr = ["12,495 ", "11,900", "1,599", "599"]
 	let newMulya = ["8,999", "9,199", "899", "278"]
 
 	return (
 		<div className="singleCard" >
 		<h2>{head[idx]}</h2>
-		{/* <img src="" alt="" /> */}
+		<img src={picture[idx]} alt="Mouse" />
 
 		<div>
 		<ul>
