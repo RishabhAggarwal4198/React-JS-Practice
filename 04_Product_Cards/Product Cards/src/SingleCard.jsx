@@ -12,7 +12,7 @@ function Card ({heading, image, descrption , price}) {
 			<li> {descrption} </li>
 		</ul>
 		
-		<Price/>
+		<Price  oldPrice="123" newPrice="456"/>
 		
 		</div>
 	)
