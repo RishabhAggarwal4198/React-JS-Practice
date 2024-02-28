@@ -1,6 +1,9 @@
 import "./SingleCard.css"
 import Price from "./Price"
-import Picture1 from "F:/JavaScript  Folder/JAVA-Script Files/ROUND-2/Files/React/Images/png_computer_mouse_71912.png"
+import Picture1 from "F:/JavaScript  Folder/JAVA-Script Files/ROUND-2/Files/React/Images/wired mouse.png"
+import Picture2 from "F:/JavaScript  Folder/JAVA-Script Files/ROUND-2/Files/React/Images/pencil.png"
+import Picture3 from "F:/JavaScript  Folder/JAVA-Script Files/ROUND-2/Files/React/Images/keyboard.png"
+import Picture4 from "F:/JavaScript  Folder/JAVA-Script Files/ROUND-2/Files/React/Images/png_computer_mouse_71912.png"
 
 function Card ({ idx}) {
 
@@ -12,7 +15,7 @@ function Card ({ idx}) {
 					['Intutive touch surface', 'Designed for iPad Pro'], 
 					 ['Wireless Mouse 2.4GHz' , 'Optical Orientation']]
 	
-	// let picture = ["/React/Images/png_computer_mouse_71912.png"]
+	let picture = [Picture1 , Picture2, Picture3, Picture4]
 
 	let oldPr = ["12,495 ", "11,900", "1,599", "599"]
 	let newMulya = ["8,999", "9,199", "899", "278"]
@@ -20,7 +23,7 @@ function Card ({ idx}) {
 	return (
 		<div className="singleCard" >
 		<h2>{head[idx]}</h2>
-		<img src={Picture1} alt="Mouse" />
+		<img src={picture[idx]} alt="Mouse" />
 
 		<div>
 		<ul>
