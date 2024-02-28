@@ -12,6 +12,7 @@ function Card ({heading, image, descrption , price}) {
 			<li> {descrption} </li>
 		</ul>
 		
+		<Price/>
 		
 		</div>
 	)

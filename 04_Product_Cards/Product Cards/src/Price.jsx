@@ -1,11 +1,11 @@
 
 
-function Price () {
+function Price (oldPrice, newPrice) {
 
 	return(
 		<div>
-			<span></span>
-			<span></span>
+			<span>{oldPrice}</span>
+			<span>{newPrice}</span>
 		</div>
 	)
 }
