@@ -1,9 +1,8 @@
 
+import Price from "./Price"
 
 function Card ({heading, image, descrption , price}) {
 	
-	
-
 	return (
 		<div>
 		<h1>{heading}</h1>
@@ -13,10 +12,11 @@ function Card ({heading, image, descrption , price}) {
 			<li> {descrption} </li>
 		</ul>
 		
-		<h2>{price}</h2>
+		
 		</div>
 	)
 	
 }
+
 
 export default  Card
