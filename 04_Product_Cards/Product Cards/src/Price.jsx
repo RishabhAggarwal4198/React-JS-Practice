@@ -1,6 +1,6 @@
 
 
-function Price (oldPrice, newPrice) {
+function Price ({oldPrice, newPrice}) {
 
 	return(
 		<div>

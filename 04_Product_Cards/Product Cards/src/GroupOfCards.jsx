@@ -1,21 +1,27 @@
 
 import Card from "./SingleCard"
 
+let decor = {
+	display : "flex",
+	columnGap : "1rem"
+	
+}
+
+
 function GroupOfCards () {
 
-	let head = ['Logitech MX Master 3S' , 'Apple Pencil (2nd Gen)' ,
-				 'Zebronics zeb-Transformer' , 'Portonics Toad 23 Wireless Mouse']
+	
 
-	let descript = [ ['800 DPi' , '5 Programming Button'] , 
-					['Intutive touch surface', 'Designed for iPad Pro'], 
-					['Intutive touch surface', 'Designed for iPad Pro'], 
-					 ['Wireless Mouse 2.4GHz' , 'Optical Orientation']]
+	
 	
 	
 	return(
 
-		<div>
-			<Card idx={0}  heading={head[0]}   descrption = {descript[0]}  price={299} />
+		<div style={decor} >
+			<Card idx={0}   price={299} />
+			<Card idx={1}   price={299} />
+			<Card idx={2}   price={299} />
+			<Card idx={3}   price={299} />
 		</div>
 	)
 }
