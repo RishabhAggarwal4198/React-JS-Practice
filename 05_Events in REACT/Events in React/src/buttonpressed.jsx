@@ -1,5 +1,10 @@
 
-import changeColor from "./changeColor";
+// import changeColor from "./changeColor";
+
+function gg (){
+	console.log("button is pressed");
+}
+
 
 function buttonpressed () {
 	return (
