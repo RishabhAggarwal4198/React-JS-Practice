@@ -15,7 +15,7 @@ function GroupOfCards () {
 	return(
 
 		<div>
-			<Card heading={head[0]} image={"React\Images\png_computer_mouse_71912.png"} descrption = "Hello"  price={299} />
+			<Card idx={0}  heading={head[0]}  image={"React\Images\png_computer_mouse_71912.png"} descrption = {descript[0]}  price={299} />
 		</div>
 	)
 }
