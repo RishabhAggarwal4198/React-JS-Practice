@@ -10,10 +10,10 @@ function Card ({ idx}) {
 	let head = ['Logitech MX Master 3S' , 'Apple Pencil (2nd Gen)' ,
 				 'Zebronics Transformer' , 'Portonics Wireless Mouse']
 
-	let description = [ ['800 DPi' , '5 Programming Button'] , 
-					['Intutive touch surface', 'Designed for iPad Pro'], 
-					['Intutive touch surface', 'Designed for iPad Pro'], 
-					 ['Wireless Mouse 2.4GHz' , 'Optical Orientation']]
+	let description = [['800 DPi' , '5 Programming Button'] , 
+						['Intutive touch surface', 'Designed for iPad Pro'], 
+						['Intutive touch surface', 'Designed for iPad Pro'], 
+						 ['Wireless Mouse 2.4GHz' , 'Optical Orientation']]
 	
 	let picture = [Picture1 , Picture2, Picture3, Picture4]
 
