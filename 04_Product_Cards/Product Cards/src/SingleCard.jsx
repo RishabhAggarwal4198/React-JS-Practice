@@ -1,7 +1,7 @@
 import "./SingleCard.css"
 import Price from "./Price"
 
-function Card ({heading, image , idx}) {
+function Card ({ idx}) {
 
 	let head = ['Logitech MX Master 3S' , 'Apple Pencil (2nd Gen)' ,
 				 'Zebronics zeb-Transformer' , 'Portonics Toad 23 Wireless Mouse']
@@ -11,8 +11,8 @@ function Card ({heading, image , idx}) {
 					['Intutive touch surface', 'Designed for iPad Pro'], 
 					 ['Wireless Mouse 2.4GHz' , 'Optical Orientation']]
 	
-	oldPrice = ["12,495 ", "11,900", "1,599", "599"]
-	newPrice = ["8,999", "9,199", "899", "278"]
+	let oldPr = ["12,495 ", "11,900", "1,599", "599"]
+	let newMulya = ["8,999", "9,199", "899", "278"]
 
 	return (
 		<div className="singleCard" >
@@ -22,7 +22,7 @@ function Card ({heading, image , idx}) {
 			<li> {description[idx][1]} </li>
 		</ul>
 		
-		<Price  oldPrice="123"  newPrice="456" /> 
+		<Price  oldPrice={oldPr[idx]}   newPrice={newMulya[idx]} /> 
 		
 		</div>
 	)

@@ -1,15 +1,16 @@
 
-let layout = {
-	
+let ishhTile = {
+
 }
+
 
 function Price ({oldPrice, newPrice}) {
 
 	return(
 		<div>
-			<span>{oldPrice}</span>
+			<span><b>{oldPrice}</b></span>
 			&nbsp; &nbsp; &nbsp; 
-			<span>{newPrice}</span>
+			<span><b>{newPrice}</b></span>
 		</div>
 	)
 }
