@@ -3,7 +3,7 @@ import Card from "./SingleCard"
 
 let decor = {
 	display : "flex",
-	columnGap : "1rem"
+	columnGap : "2.2rem"
 	
 }
 
