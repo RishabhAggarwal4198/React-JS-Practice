@@ -17,12 +17,18 @@ function Card ({ idx}) {
 	return (
 		<div className="singleCard" >
 		<h2>{head[idx]}</h2>
+		{/* <img src="" alt="" /> */}
+
+		<div>
 		<ul>
 			<li> {description[idx][0]} </li>
 			<li> {description[idx][1]} </li>
 		</ul>
 		
 		<Price  oldPrice={oldPr[idx]}   newPrice={newMulya[idx]} /> 
+
+		</div>
+		
 		
 		</div>
 	)
