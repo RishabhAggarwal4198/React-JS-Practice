@@ -1,18 +1,17 @@
-
+import "./SingleCard.css"
 import Price from "./Price"
 
-function Card ({heading, image, descrption , price}) {
+function Card ({heading, image, descrption , idx}) {
 	
 	return (
-		<div>
-		<h1>{heading}</h1>
-		<img src= {image} alt="" />
+		<div className="singleCard" >
+		<h2>{heading}</h2>
 		<ul>
 			<li> {descrption} </li>
 			<li> {descrption} </li>
 		</ul>
 		
-		<Price  oldPrice="123"  newPrice="456" /> 
+		{/* <Price  oldPrice="123"  newPrice="456" />  */}
 		
 		</div>
 	)
