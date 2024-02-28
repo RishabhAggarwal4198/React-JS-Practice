@@ -11,6 +11,9 @@ function Card ({heading, image , idx}) {
 					['Intutive touch surface', 'Designed for iPad Pro'], 
 					 ['Wireless Mouse 2.4GHz' , 'Optical Orientation']]
 	
+	oldPrice = ["12,495 ", "11,900", "1,599", "599"]
+	newPrice = ["8,999", "9,199", "899", "278"]
+
 	return (
 		<div className="singleCard" >
 		<h2>{head[idx]}</h2>

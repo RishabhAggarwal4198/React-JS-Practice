@@ -1,4 +1,7 @@
 
+let layout = {
+	
+}
 
 function Price ({oldPrice, newPrice}) {
 
