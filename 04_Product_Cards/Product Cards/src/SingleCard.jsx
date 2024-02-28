@@ -17,8 +17,8 @@ function Card ({ idx}) {
 	
 	let picture = [Picture1 , Picture2, Picture3, Picture4]
 
-	let oldPr = ["12,495 ", "11,900", "1,599", "599"]
-	let newMulya = ["8,999", "9,199", "899", "278"]
+	let oldPr = ["₹12,495 ", "₹11,900", "₹1,599", "₹599"]
+	let newMulya = ["₹8,999", "₹9,199", "₹899", "₹278"]
 
 	return (
 		<div className="singleCard" >
@@ -27,8 +27,8 @@ function Card ({ idx}) {
 
 		<div>
 		<ul>
-			<li> {description[idx][0]} </li>
-			<li> {description[idx][1]} </li>
+			<li> <b>{description[idx][0]}</b> </li>
+			<li> <b>{description[idx][1]}</b> </li>
 		</ul>
 		
 		<Price  oldPrice={oldPr[idx]}   newPrice={newMulya[idx]} /> 
