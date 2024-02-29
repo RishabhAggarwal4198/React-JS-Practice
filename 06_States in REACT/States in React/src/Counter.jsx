@@ -1,11 +1,12 @@
 
 export default function Counter () {
-	let count = 0;
-
-	function inCount () {
-		count += 1;
-		console.log(count);
-	}
+	let [stateVariable , setStateVariable] = useState(10);
+	
+	// let count = 0;
+	// function inCount () {
+	// 	count += 1;
+	// 	console.log(count);
+	// }
 
 	return (
 		<div>
