@@ -5,7 +5,7 @@ export default function Counter () {
 
 
 	let inCount = () => {
-		count = count + 1;
+		setCount (count + 1);
 		console.log(count);
 	}
 	// let count = 0;
