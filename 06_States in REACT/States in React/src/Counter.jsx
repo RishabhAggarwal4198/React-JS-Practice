@@ -1,7 +1,9 @@
 
 export default function Counter () {
-	let [stateVariable , setStateVariable] = useState(10);
-	
+	// let [stateVariable , setStateVariable] = useState(10);
+	let [count , setCount] = userState (0);
+
+
 	// let count = 0;
 	// function inCount () {
 	// 	count += 1;
