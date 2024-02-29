@@ -4,6 +4,10 @@ export default function Counter () {
 	let [count , setCount] = userState (0);
 
 
+	let inCount = () => {
+		count = count + 1;
+		console.log(count);
+	}
 	// let count = 0;
 	// function inCount () {
 	// 	count += 1;
