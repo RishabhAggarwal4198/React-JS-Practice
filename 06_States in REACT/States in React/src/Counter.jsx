@@ -6,4 +6,10 @@ export default function Counter () {
 		count += 1;
 		console.log(count);
 	}
+
+	return (
+		<div>
+			<h3>Count = {count}</h3>
+		</div>
+	)
 }
